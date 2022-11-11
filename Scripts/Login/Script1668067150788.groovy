@@ -27,7 +27,7 @@ WebUI.setText(findTestObject('Login_Page/Input_Username'), GlobalVariable.userna
 
 WebUI.setEncryptedText(findTestObject('Login_Page/Input_Password'), GlobalVariable.password)
 
-WebUI.click(findTestObject('Login_Page/button_Login'))
+WebUI.click(findTestObject('Login_Page/Button_Login'))
 
 WebUI.verifyElementVisible(findTestObject('Login_Page/Text_Dashboard'), FailureHandling.STOP_ON_FAILURE)
 
