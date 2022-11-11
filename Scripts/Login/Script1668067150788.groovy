@@ -19,13 +19,17 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://localhost:8181/web/index.php/auth/login')
+WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_username'), 'Admin')
+WebUI.navigateToUrl(GlobalVariable.url)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Password_password'), 'QIaGzQLQqqLay5EbJRYZAw==')
+WebUI.setText(findTestObject('Login_Page/Input_Username'), GlobalVariable.username)
 
-WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_Time at WorkNot Punched In0h 0m TodayTh_23ad64'))
+WebUI.setEncryptedText(findTestObject('Login_Page/Input_Password'), GlobalVariable.password)
+
+WebUI.click(findTestObject('Login_Page/button_Login'))
+
+WebUI.verifyElementVisible(findTestObject('Login_Page/Text_Dashboard'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

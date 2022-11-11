@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>New Test Suite</name>
+   <name>TestSuiteOne</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>0</numberOfRerun>
+   <numberOfRerun>3</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>b2247797-cb7e-4731-8499-eecf2fc57c8e</testSuiteGuid>
+   <testSuiteGuid>a696ac5b-8a69-4182-8866-37e7c3dd56b9</testSuiteGuid>
    <testCaseLink>
-      <guid>cdb5cdc1-8756-4c33-b33f-a7096a94c621</guid>
+      <guid>d4391c2a-4561-4b7a-ada6-b4662360a978</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TEST-1 TC1-Successfully Login to OrangeHRM</testCaseId>
+      <testCaseId>Test Cases/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
