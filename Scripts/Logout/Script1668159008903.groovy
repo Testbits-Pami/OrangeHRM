@@ -17,17 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Logout_Page/Link_User_Profile'))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Logout_Page/Link_Logout'))
 
-WebUI.navigateToUrl(GlobalVariable.url)
+WebUI.verifyElementVisible(findTestObject('Login_Page/Button_Login'))
 
-WebUI.setText(findTestObject('Login_Page/Input_Username'), GlobalVariable.username)
-
-WebUI.setEncryptedText(findTestObject('Login_Page/Input_Password'), GlobalVariable.password)
-
-WebUI.click(findTestObject('Login_Page/button_Login'))
-
-WebUI.verifyElementVisible(findTestObject('Login_Page/Text_Dashboard'), FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
 
