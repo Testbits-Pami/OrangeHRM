@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: TC2-Successfully Logout of OrangeHRM
+Description: </description>
+   <name>TEST-9 TC2-Successfully Logout of OrangeHRM</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10029&quot;:[],&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0003j:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://testbitsdemo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/project/10001&quot;,&quot;key&quot;:&quot;TEST&quot;,&quot;id&quot;:10001,&quot;name&quot;:&quot;Test&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;TC2-Successfully Logout of OrangeHRM&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;fahmi@mytestbits.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Ahmad Fahmi Ab Aziz&quot;,&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/user?accountId\u003d6368ab442f8b3c8f116ab557&quot;},&quot;assignee&quot;:{&quot;emailAddress&quot;:&quot;fahmi@mytestbits.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;Ahmad Fahmi Ab Aziz&quot;,&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/user?accountId\u003d6368ab442f8b3c8f116ab557&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/issue/TEST-9/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://testbitsdemo.atlassian.net/rest/api/2/issue/10016&quot;,&quot;key&quot;:&quot;TEST-9&quot;,&quot;id&quot;:10016}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>31c754f3-14a8-48df-9309-93b532e67058</testCaseGuid>
+</TestCaseEntity>
