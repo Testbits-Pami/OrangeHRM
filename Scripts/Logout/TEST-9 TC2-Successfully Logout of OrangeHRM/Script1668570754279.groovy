@@ -23,5 +23,7 @@ WebUI.click(findTestObject('Logout_Page/Link_Logout'))
 
 WebUI.verifyElementVisible(findTestObject('Login_Page/Button_Login'))
 
+WebUI.verifyTextPresent('This is a Test', false)
+
 WebUI.closeBrowser()
 
